@@ -1,0 +1,6 @@
+---
+- hosts: all
+  vars:
+  - nginx_disable_default_server: false
+  roles:
+  - ansible-role-nginx
